@@ -1,0 +1,28 @@
+.home-container {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.home-row {
+  display: flex;
+  flex-direction: row !important;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar-wrapper {
+  width: 40%;
+  min-width: 250px;
+  background-color: transparent; /* or any sidebar-specific color */
+  overflow-y: 0;
+}
+
+.content-wrapper {
+  width: 75%;
+  overflow-y: auto;
+  padding: 2rem;
+  background-color: #f8f9fa; /* Optional background for content */
+}

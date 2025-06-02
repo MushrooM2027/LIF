@@ -1,0 +1,77 @@
+.lif-sidebar {
+  position: relative;
+  overflow: hidden;
+  align-items: left;
+  padding: 1.5rem;
+  z-index: 0;
+}
+
+.lif-sidebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.lif-sidebar-logo {
+  height: 150px;
+  width: auto;
+  z-index: 0;
+  padding-left: 10px;
+}
+
+.lif-sidebar-links {
+  z-index: 0;
+  display: block !important;
+}
+
+.lif-sidebar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  align-items: left;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgb(175, 175, 175);
+}
+
+.lif-sidebar a:hover {
+  text-decoration: none;
+  color: #37b30b;
+}
+
+.lif-sidebar-row {
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-primary {
+  border: none !important;
+}
+
+.back-button {
+    background: linear-gradient(145deg, #3e673f, #1a1f1a) !important;
+    color: #ffffff !important;
+    text-shadow: none !important;
+    border: none;
+    font-size: 0.7rem !important;
+    padding: 6px 0px;
+    width: 100px;
+    border-radius: 12px;
+    margin: 20px 0 20px 0;
+    box-shadow: 2px 2px 8px #2a342b;
+    transition: all 0.3s ease;
+  }
+  
+.back-button:hover {
+    background: linear-gradient(145deg, #1a1f1a, #3e673f) !important;
+    color: #ffffff !important;
+    border: none;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 8px #424d42;
+  }
