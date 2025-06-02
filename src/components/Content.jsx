@@ -27,7 +27,7 @@ const Content = () => {
       </Container>
       <div className="image-border-wrapper">
         <img 
-          src="../../src/assets/001.jpeg" 
+          src="https://github.com/MushrooM2027/LIF/releases/download/compiler/001.jpeg" 
           alt="LifStudio" 
           className="img-fluid"
         />
