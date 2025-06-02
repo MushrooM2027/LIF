@@ -18,7 +18,7 @@ const Content = () => {
 
         <Button 
           className="download-button" 
-          href='\jar\LIFCompiler.jar' 
+          href='https://github.com/MushrooM2027/LIF/releases/download/compiler/LIFCompiler.jar' 
           download="LIFCompiler.jar"
         >
           Download jar file

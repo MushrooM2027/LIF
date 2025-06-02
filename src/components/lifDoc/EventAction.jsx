@@ -41,9 +41,6 @@ const EventAction = () => {
       <li><b>visibleIf [STRING/EXPRESSION]</b>: Only show if condition is true (e.g. visibleIf "isAdmin == true").</li>
       <li><b>visible [BOOLEAN]</b>: Show (true) or hide (false) directly.</li>
     </ul>
- 
-
-
 
     </Container>
   );

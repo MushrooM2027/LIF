@@ -13,7 +13,7 @@ const Sidebar = () => {
         <Nav.Link as={HashLink} smooth to="/LifDocumentation#installation">
           Download LifStudio
         </Nav.Link>
-        <Nav.Link as="a" href="/jar/LIFStudio.jar" download="LIFCompiler.jar">
+        <Nav.Link as="a" href="https://github.com/MushrooM2027/LIF/releases/download/compiler/LIFCompiler.jar" download="LIFCompiler.jar">
           Download jar file
         </Nav.Link>
         <Nav.Link as={Link} to="/LifDocumentation">Lif documentation</Nav.Link>
