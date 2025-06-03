@@ -9,13 +9,13 @@ const GettingStarted = () => {
   const windowsDownloads = [
     {
       description: "win-x86 (Windows 32-bit) Compressed Archive",
-      size: "103.2 MB",
-      link: "https://github.com/MushrooM2027/LIF/releases/download/compiler/win-x86.zip"
+      size: "98.8 MB",
+      link: "https://github.com/MushrooM2027/LIF/releases/download/compiler/LIFStudio_32.zip"
     },
     {
       description: "win-x64 (Windows 64-bit) Compressed Archive",
-      size: "98.8 MB",
-      link: "https://github.com/MushrooM2027/LIF/releases/download/compiler/win-x64.zip"
+      size: "104.2 MB",
+      link: "https://github.com/MushrooM2027/LIF/releases/download/compiler/LIFStudio.zip"
     },
     
 
